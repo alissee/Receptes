@@ -1,0 +1,176 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018.17.1, 16:43:27
+    Author     : alise
+*/
+
+body {
+    background-image: url("https://www.rd.com/wp-content/uploads/2017/10/12_Citrus_Healthy-Holiday-Food-Gifts-Instead-of-Fruit-Cake_524210419-ch_ch-1228x640.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-size: 12px;
+    font-family: Verdana,sans-serif;
+
+}
+
+.main-container a {
+    font-style: italic;
+}
+
+
+body p, li {
+    font-size: 16px;
+        padding: 0.2em;
+}
+
+
+.centered-content {
+    background-color: rgba(244, 244, 244, 0.7);
+    min-width: 600px; 
+    width: 75%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.top_banner img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.top_banner {
+    width: 100%;
+    position: relative;
+}
+.top_banner h3 { 
+   position: absolute; 
+   top: 15%; 
+   width: 100%; 
+   text-transform: uppercase;
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 55px;
+    color: whitesmoke;
+}
+
+
+.main-container { 
+    display: inline-block;
+    width: calc(100% - 5%); 
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-family: 'Calibri', 'Lato';
+    font-size: 12px; 
+    line-height: 1.5em;
+    
+ }
+ 
+ 
+ .main-container p{
+    font-size: 1.3em;  
+ }
+ 
+ .main-container
+ 
+ .area-center {
+     font-family:'Lora', "Spectral","Lucida Sans Unicode";
+ } 
+ 
+.lead a {
+     color: black;
+     text-decoration: none;
+     
+ }
+ .lead {
+     padding-top: 15px;
+     
+ }
+
+.area-center ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #244;
+}
+
+.area-center li {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+   
+}
+
+.area-center li a {
+    display: block;
+    color: white;
+    font-size: 18px;
+    
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.area-center li a:hover {
+    background-color: #111;
+}
+
+
+
+.main-container h1 {
+    color: #5F021F;
+    font-family: Verdana;
+    font-size: 22px;
+    font-style: italic;
+    
+}
+
+
+.menu-bottom {
+width: calc(100% - 20%);
+padding-left: 10%;
+padding-right: 10%;
+background-color: rgba(159,167,167,0.4);
+}
+
+.menu-bottom p{
+    text-align: right;
+    font-size: 12px;
+}
+
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+
+
+
+@media screen and (max-width:768px){
+       body {     
+           width: 100%!important; 
+       }
+}
+
+
+
